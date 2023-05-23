@@ -1,0 +1,76 @@
+.home-header{
+    background: #2196f3;
+    color:#1065b6;
+    background-image: url(img/pexels-ben-mack-5326904.jpg);
+    /* Moze i umesto slike da bude boja pozadine neka npr*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.logo{
+    height: 70px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.home-header .row{
+    padding-top: 10px;
+    padding-bottom: 15%;
+}
+.promo-text-box{
+    margin: 15%;
+}
+.promo-text-box h1{
+    margin-bottom: 25px;
+}
+.play-btn{
+    margin: 20px;
+    width: 45px;
+}
+.lead-form{
+    width: 350px;
+    background: #fff;
+    margin: 10px auto;
+    border-radius: 10px;
+    color:#212121;
+}
+.title-box{
+    height: 150px;
+    padding-top: 30px;
+    border-bottom-left-radius: 200px 50px;
+    border-bottom-right-radius: 200px 50px;
+    background-color: #1065b6;
+}
+form label{
+    float:left;
+    margin-left: 37px;
+    color: #888;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+.input-box{
+    width: 280px;
+    height: 40px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color:#999;
+}
+.input-box::placeholder{
+    color:#1065b6;
+    
+}
+.submit-btn{
+    color: #fff;
+    width: 280px;
+    height: 60px;
+    font-weight: 600;
+    background-color: #1065b6;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: -40px;
+    
+}
